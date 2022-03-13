@@ -1,19 +1,17 @@
 # Title
 
-![banner]()
+![badge](https://img.shields.io/badge/author-Gregory%20Starr-red)
+![badge](https://img.shields.io/badge/isModern-True-blue)
+[![badge](https://img.shields.io/badge/pupose-code%20challenge-brightgreen)](LICENSE)
+![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)
 
-![badge]()
-![badge]()
-[![license](https://img.shields.io/github/license/:gregoryStarr/:hospitalDemo.svg)](LICENSE)
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+This is demo project with the following requirements...
 
-This is an example file with maximal choices selected.
 
 This is a long description.
 
 ## Table of Contents
 
-- [Security](#security)
 - [Background](#background)
 - [Install](#install)
 - [Usage](#usage)
@@ -21,38 +19,43 @@ This is a long description.
 - [Contributing](#contributing)
 - [License](#license)
 
-## Security
-
-### Any optional sections
-
 ## Background
-
-### Any optional sections
-
+Per request, building this app as a demo for AHTG
 ## Install
 
-This module depends upon a knowledge of [Markdown]().
+To run:
+First
 
 ```
+npm i
+```
+then
+```
+npm start
+```
+For local dev, please run ...
+
+```
+npm run dev
 ```
 
-### Any optional sections
+
 
 ## Usage
+To make a build production please eecute the following...
+```
+npm build
+```
+
+To run unit tests:
 
 ```
+npm test
 ```
-
-Note: The `license` badge image link at the top of this file should be updated with the correct `:user` and `:repo`.
-
-### Any optional sections
 
 ## API
-
-### Any optional sections
-
-## More optional sections
-
+```
+```
 ## Contributing
 
 See [the contributing file](CONTRIBUTING.md)!
@@ -65,4 +68,4 @@ Small note: If editing the Readme, please conform to the [standard-readme](https
 
 ## License
 
-[MIT © Richard McRichface.](../LICENSE)
+[MIT © Gregory Starr.](../LICENSE)
