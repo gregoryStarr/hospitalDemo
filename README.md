@@ -6,9 +6,10 @@
 ![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)
 
 This is demo project with the following requirements...
+Data used was provided for free from this source:  [Community Bennifits insights](https://www.communitybenefitinsight.org/?page=info.data_api)
 
+SUPPLIMENTAL additions to data are stored in localstorage for purposes of this demo.
 
-This is a long description.
 
 ## Table of Contents
 
@@ -54,18 +55,13 @@ npm test
 ```
 
 ## API
-```
-```
+TBD
 ## Contributing
-
-See [the contributing file](CONTRIBUTING.md)!
 
 PRs accepted.
 
-Small note: If editing the Readme, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
-
-### Any optional sections
+Small note: If editing the Readme, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification by Richard litt.
 
 ## License
 
-[MIT © Gregory Starr.](../LICENSE)
+[ISC © Gregory Starr.](../LICENSE)

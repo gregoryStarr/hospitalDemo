@@ -1,0 +1,38 @@
+{
+  "name": "hospital-manager",
+  "version": "1.0.0",
+  "description": "A demo for AHTG",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test",
+    "dev": "webpack serve --mode development --port 3000",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --port 3000 --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregoryStarr/hospitalDemo.git"
+  },
+  "author": "Gregory Starr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gregoryStarr/hospitalDemo/issues"
+  },
+  "homepage": "https://github.com/gregoryStarr/hospitalDemo#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "fork-ts-checker-webpack-plugin": "^7.2.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "typescript": "^4.6.2",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "D": "^1.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ts-loader": "^9.2.8"
+  }
+}
