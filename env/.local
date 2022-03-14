@@ -1,0 +1,1 @@
+export APIENDPOINT='https://www.communitybenefitinsight.org/api/get_hospitals.php'

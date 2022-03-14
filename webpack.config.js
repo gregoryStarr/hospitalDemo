@@ -16,6 +16,13 @@ module.exports = {
     publicPath: '/'
   },
   resolve: {
+    alias: {
+      components: path.resolve(__dirname, './src/components/'),
+      root: path.resolve(__dirname, './src/'),
+      views: path.resolve(__dirname, './src/views/'),
+      services: path.resolve(__dirname, './src/services/'),
+
+    },
     extensions: ['.ts', '.tsx', '.js', '.json', '.css'] // Here we add the
     // extensions we want to support
   },

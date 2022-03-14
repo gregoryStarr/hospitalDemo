@@ -1,7 +1,11 @@
-import { render } from 'react-dom'
+import React from 'react';
+import ReactDom from 'react-dom';
+import {App} from './App';
+import reportWebVitals from '../reportWebVitals';
+const AppTree = <React.StrictMode>
+<App />
+</React.StrictMode>
 
-const App = () => {
-  return <div>Hello World</div>
-}
+ReactDom.render( AppTree, document.querySelector("#root"));
 
-render(<App />, document.querySelector('#root'))
+reportWebVitals();

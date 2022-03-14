@@ -6,7 +6,7 @@
 ![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)
 
 This is demo project with the following requirements...
-Data used was provided for free from this source:  [Community Bennifits insights](https://www.communitybenefitinsight.org/?page=info.data_api)
+Data used was provided for free from this source:  [Community Bennifits zinsights](https://www.communitybenefitinsight.org/api/get_hospitals.php)
 
 SUPPLIMENTAL additions to data are stored in localstorage for purposes of this demo.
 
